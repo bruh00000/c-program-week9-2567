@@ -7,12 +7,10 @@ void callUserName()
     char lastName[] = "";
 
     printf("Enter stings of fist name : ");
-    scanf("%s", &firstName);
+    scanf("%s", firstName);
+    printf("%s\n" ,firstName );
 
     printf("Enter stings of last name : ");
-    scanf("%s", &lastName);
-
-    printf("%s" ,firstName );
+    scanf("%s", lastName);
     printf("%s" , lastName );
-
 }
